@@ -1,5 +1,9 @@
-import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
-  return <p className="font-bold text-blue-700">Next Auth</p>;
+  return (
+    <Button size="lg" variant="custom">
+      Click me
+    </Button>
+  );
 }
